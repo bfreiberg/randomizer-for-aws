@@ -25,7 +25,7 @@ Based on [gatsby-simplefolio](https://github/license/cobidev/gatsby-simplefolio)
 
 ## Getting Started 🚀
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. For instrastructure details see the `infrastructure` folder.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. For infrastructure details see the `infrastructure` folder.
 
 ### Prerequisites 📋
 

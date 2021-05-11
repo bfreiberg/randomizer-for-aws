@@ -32,7 +32,7 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'github',
-      url: 'https://github.com/bfreiberg',
+      url: 'https://github.com/bfreiberg/randomizer-for-aws',
     },
   ],
 };
