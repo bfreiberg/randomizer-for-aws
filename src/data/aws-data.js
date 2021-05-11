@@ -1042,7 +1042,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Security', 'Machine Learning', 'Free Trial', 'Compliance'],
+    tags: ['Security', 'Machine Learning', 'Free tier', 'Compliance'],
   },
   {
     name: 'AWS Fargate',

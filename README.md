@@ -168,6 +168,10 @@ Add or modify the data in `src/data/aws-data.js`. Each link can have an **option
 
 ---
 
+<h2 align="center">
+  <img src="https://github.com/bfreiberg/randomizer-for-aws/blob/main/examples/lighthouse.png" alt="Lighthouse Report" width="100%">
+</h2>
+
 ## Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
