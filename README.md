@@ -25,7 +25,7 @@ Based on [gatsby-simplefolio](https://github/license/cobidev/gatsby-simplefolio)
 
 ## Getting Started 🚀
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. For instrastructure details see the `infrastructure` folder.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. For infrastructure details see the `infrastructure` folder.
 
 ### Prerequisites 📋
 
@@ -167,6 +167,10 @@ Add or modify the data in `src/data/aws-data.js`. Each link can have an **option
 ```
 
 ---
+
+<h2 align="center">
+  <img src="https://github.com/bfreiberg/randomizer-for-aws/blob/main/examples/lighthouse.png" alt="Lighthouse Report" width="100%">
+</h2>
 
 ## Technologies used 🛠️
 

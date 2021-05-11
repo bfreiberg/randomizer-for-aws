@@ -482,7 +482,7 @@ const awsData = [
         type: 'code',
       },
     ],
-    tags: ['Cloudwatch', 'Solutions Implementations', 'Monitoring', 'Observability'],
+    tags: ['CloudWatch', 'Solutions Implementations', 'Monitoring', 'Observability'],
   },
   {
     name: 'Moving Graphs for CloudWatch Dashboards',
@@ -500,7 +500,7 @@ const awsData = [
           'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-animated-dashboard.html',
       },
     ],
-    tags: ['Cloudwatch', 'New in 2021', 'Monitoring', 'Observability'],
+    tags: ['CloudWatch', 'New in 2021', 'Monitoring', 'Observability'],
   },
   {
     name: 'Amazon Elasticsearch Service',
@@ -520,7 +520,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/elasticsearch-service/latest/developerguide/es-gsg.html',
       },
     ],
-    tags: ['Database', 'Free tier'],
+    tags: ['Analytics', 'Database', 'Free tier'],
   },
   {
     name: 'AWS Systems Manager Run Command',
@@ -540,6 +540,11 @@ const awsData = [
         text: 'User Guide',
         link:
           'https://docs.aws.amazon.com/systems-manager/latest/userguide/execute-remote-commands.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=sriNozVSj0U',
+        type: 'video',
       },
     ],
     tags: ['Operations', 'Systems Manager', 'Management', 'EC2'],
@@ -1037,7 +1042,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Security', 'Machine Learning', 'Free Trial', 'Compliance'],
+    tags: ['Security', 'Machine Learning', 'Free tier', 'Compliance'],
   },
   {
     name: 'AWS Fargate',
@@ -1110,6 +1115,261 @@ const awsData = [
       },
     ],
     tags: ['Business Apps'],
+  },
+  {
+    name: 'Amazon Fraud Detector',
+    text:
+      "Amazon Fraud Detector is a fully managed service that uses machine learning and Amazon's fraud detection expertise, to identify potentially fraudulent activity so customers can catch more online fraud faster. It automates the time consuming and expensive steps to build, train, and deploy an ML model for fraud detection.",
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/fraud-detector/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/frauddetector/latest/ug/what-is-frauddetector.html',
+      },
+      {
+        text: 'Tech Talk',
+        link: 'https://www.youtube.com/watch?v=MNSq2G3V8wM',
+        type: 'video',
+      },
+    ],
+    tags: ['Machine Learning', 'Security'],
+  },
+  {
+    name: 'Amazon MQ',
+    text:
+      'Amazon MQ is a managed message broker service for Apache ActiveMQ and RabbitMQ that makes it easy to set up and operate message brokers on AWS. Amazon MQ reduces your operational responsibilities by managing the provisioning, setup, and maintenance of message brokers for you.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/amazon-mq/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/amazon-mq/latest/developer-guide/welcome.html',
+      },
+      {
+        text: 'Tutorial',
+        link: 'https://aws.amazon.com/getting-started/hands-on/create-a-connected-message-broker/',
+      },
+      {
+        text: 'Tech Talk',
+        link: 'https://www.youtube.com/watch?v=IzCdl-D3-mk',
+        type: 'video',
+      },
+    ],
+    tags: ['Application Integration', 'Messaging'],
+  },
+  {
+    name: 'Amazon AppFlow',
+    text:
+      'Amazon AppFlow is a fully managed integration service that enables you to securely transfer data between SaaS applications like Salesforce, Zendesk, Slack, and ServiceNow, and AWS services like Amazon S3 and Amazon Redshift, in just a few clicks.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/appflow/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/appflow/latest/userguide/what-is-appflow.html',
+      },
+      {
+        text: 'Available Integrations',
+        link: 'https://aws.amazon.com/appflow/integrations/',
+      },
+      {
+        text: 'Tech Talk',
+        link: 'https://www.youtube.com/watch?v=i_WKLhlrB-0',
+        type: 'video',
+      },
+      {
+        text: 'Samples & Demos',
+        link: 'https://github.com/aws-samples/amazon-appflow',
+        type: 'code',
+      },
+    ],
+    tags: ['Application Integration', 'Business Apps'],
+  },
+  {
+    name: 'Amazon Simple Notification Service',
+    text:
+      "Amazon SNS is a managed service that provides message delivery from publishers to subscribers (also known as producers and consumers). SNS's pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications.",
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/sns/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/sns/latest/dg/welcome.html',
+      },
+      {
+        text: 'Blog Posts',
+        link:
+          'https://aws.amazon.com/blogs/compute/category/messaging/amazon-simple-notification-service-sns/',
+      },
+    ],
+    tags: ['Messaging', 'Application Integration'],
+  },
+  {
+    name: 'Amazon CloudWatch Synthetics',
+    text:
+      'You can use CloudWatch Synthetics to create canaries, configurable scripts that run on a schedule, to monitor your endpoints and APIs. Canaries follow the same routes and perform the same actions as a customer, which makes it possible for you to continually verify your customer experience even with no traffic.',
+    urls: [
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=hF3NM9j-u7I',
+        type: 'video',
+      },
+      {
+        text: 'Workshop',
+        link: 'https://observability.workshop.aws/en/synthetics.html',
+      },
+      {
+        text: 'How-to Blog Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/new-use-cloudwatch-synthetics-to-monitor-sites-api-endpoints-web-workflows-and-more/',
+      },
+    ],
+    tags: ['CloudWatch', 'Monitoring', 'Observability'],
+  },
+  {
+    name: 'SageMaker Automatic Model Tuning',
+    text:
+      'Amazon SageMaker Automatic Model Tuning, also known as hyperparameter tuning, finds the best version of a model by running many training jobs on your dataset using the algorithm and ranges of hyperparameters that you specify.',
+    urls: [
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/sagemaker/latest/dg/automatic-model-tuning.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=xpZFNIOaQns',
+        type: 'video',
+      },
+      {
+        text: 'Sample Jobs',
+        link: 'https://github.com/aws/amazon-sagemaker-examples#sagemaker-automatic-model-tuning',
+        type: 'code',
+      },
+    ],
+    tags: ['SageMaker', 'Machine Learning'],
+  },
+  {
+    name: 'SageMaker Data Wrangler',
+    text:
+      'With Amazon SageMaker Data Wrangler, you can simplify the process of data preparation and feature engineering, and complete each step of the data preparation workflow, including data selection, cleansing, exploration, and visualization from a single visual interface.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/sagemaker/data-wrangler/',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/introducing-amazon-sagemaker-data-wrangler-a-visual-interface-to-prepare-data-for-machine-learning/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/sagemaker/latest/dg/data-wrangler-getting-started.html',
+      },
+      {
+        text: 'Tutorial',
+        link: 'https://www.youtube.com/watch?v=_bsat_2N8LI',
+        type: 'video',
+      },
+    ],
+    tags: ['SageMaker', 'Machine Learning'],
+  },
+  {
+    name: 'SageMaker Ground Truth',
+    text:
+      'Amazon SageMaker Ground Truth makes it easy for you to efficiently and accurately label the datasets required for training machine learning systems. SageMaker Ground Truth can automatically label a portion of the dataset based on the labels done manually by human labelers.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/de/sagemaker/groundtruth/',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://www.youtube.com/watch?v=_FPI6KjDlCI',
+        type: 'video',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/sagemaker/latest/dg/sms.html',
+      },
+      {
+        text: 'Code Examples',
+        link:
+          'https://github.com/aws/amazon-sagemaker-examples#introduction-to-ground-truth-labeling-jobs',
+        type: 'code',
+      },
+    ],
+    tags: ['SageMaker', 'Machine Learning'],
+  },
+  {
+    name: 'AWS Proton',
+    text:
+      'AWS Proton enables platform teams to connect and coordinate all the different tools your development teams need for infrastructure provisioning, code deployments, monitoring, and updates.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/proton/',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://www.youtube.com/watch?v=3wno4h_d4Is',
+        type: 'video',
+      },
+      {
+        text: 'Admin Guide',
+        link: 'https://docs.aws.amazon.com/proton/latest/adminguide/Welcome.html',
+      },
+      {
+        text: 'Template Library',
+        link: 'https://github.com/aws-samples/aws-proton-sample-templates',
+        type: 'code',
+      },
+    ],
+    tags: ['Serverless', 'Containers', 'New in 2021'],
+  },
+  {
+    name: 'Amazon Location Service',
+    text:
+      'Amazon Location Service (in Preview) is a fully managed service that makes it easy for developers to add location data, such as maps, points of interest, and geocoding to applications, without sacrificing data security, user privacy, data quality, or cost.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/location/',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://aws.amazon.com/blogs/mobile/getting-started-with-amazon-location/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/location/latest/developerguide/what-is.html',
+      },
+      {
+        text: 'Tech Talk',
+        link: 'https://www.youtube.com/watch?v=EP_95Bkbce8',
+        type: 'video',
+      },
+      {
+        text: 'App Tutorial',
+        link: 'https://www.youtube.com/watch?v=dTzrjuz7qAA',
+        type: 'video',
+      },
+    ],
+    tags: ['Developer Tools', 'New in 2021'],
   },
 ];
 
