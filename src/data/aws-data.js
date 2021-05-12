@@ -1225,7 +1225,7 @@ const awsData = [
       },
       {
         text: 'Demo Video',
-        link: 'https://www.youtube.com/watch?v=hF3NM9j-u7I',
+        link: 'https://www.youtube.com/watch?v=MItluIsvfTo',
         type: 'video',
       },
       {

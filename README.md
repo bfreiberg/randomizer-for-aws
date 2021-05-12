@@ -10,7 +10,7 @@ Can't decide which AWS Service or feature to try next? Got some AWS credits to b
 ## Features
 
 ⚡️ Fully serverless with CloudFront, Lambda@Edge and S3\
-⚡️ S3 access secured via Origin Access Identity
+⚡️ S3 access secured via Origin Access Identity\
 ⚡️ Lambda@Edge URL rewriter
 
 ⚡️ One Page Layout built with React\
@@ -168,10 +168,6 @@ Add or modify the data in `src/data/aws-data.js`. Each link can have an **option
 
 ---
 
-<h2 align="center">
-  <img src="https://github.com/bfreiberg/randomizer-for-aws/blob/main/examples/lighthouse.png" alt="Lighthouse Report" width="100%">
-</h2>
-
 ## Technologies used 🛠️
 
 - [Gatsby](https://www.gatsbyjs.org/) - Static Site Generator
@@ -180,6 +176,12 @@ Add or modify the data in `src/data/aws-data.js`. Each link can have an **option
 - [Bootstrap 4](https://getbootstrap.com/docs/4.3/getting-started/introduction/) - Front-End UI library
 - [Sass](https://sass-lang.com/documentation) - CSS extension language
 - [UI Gradient](https://uigradients.com/#Flare) - beautiful color gradients
+
+Lighthouse score:
+
+<h2 align="center">
+  <img src="https://github.com/bfreiberg/randomizer-for-aws/blob/main/examples/lighthouse.png" alt="Lighthouse Report" width="100%">
+</h2>
 
 ## Authors
 
