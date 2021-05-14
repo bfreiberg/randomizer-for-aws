@@ -1371,6 +1371,170 @@ const awsData = [
     ],
     tags: ['Developer Tools', 'New in 2021'],
   },
+  {
+    name: 'AWS Systems Manager Change Calendar',
+    text:
+      'Change Calendar, a capability of AWS Systems Manager, lets you set up date and time ranges when actions you specify, for example in Systems Manager Automation runbooks, may or may not be performed in your AWS account.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/mt/using-aws-systems-manager-change-calendar-to-prevent-changes-during-critical-events/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-change-calendar.html',
+      },
+      {
+        text: 'Hands-on Lab',
+        link: 'https://workshop.aws-management.tools/ssm/capability_hands-on_labs/changecalendar/',
+      },
+    ],
+    tags: ['DevOps', 'Operations', 'Systems Manager', 'Management'],
+  },
+  {
+    name: 'Cross-account Glue Data Catalog Access',
+    text:
+      'Amazon Athena can now query databases and tables across AWS accounts through built-in support for AWS Glue Data Catalogs in other AWS accounts. Native support for cross-account AWS Glue Data Catalogs with Amazon Athena makes it easier for you to have a central data catalog.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-athena-adds-built-in-support-for-cross-account-aws-glue-data-catalogs/',
+      },
+      {
+        text: 'How To',
+        link: 'https://docs.aws.amazon.com/athena/latest/ug/data-sources-glue-cross-account.html',
+      },
+      {
+        text: 'Integration Docs',
+        link: 'https://docs.aws.amazon.com/athena/latest/ug/glue-athena.html',
+      },
+    ],
+    tags: ['Analytics', 'Organizations', 'New in 2021'],
+  },
+  {
+    name: 'AQUA for Redshift',
+    text:
+      'AQUA is a high-speed cache on top of Redshift Managed Storage that can scale out and process data in parallel across many AQUA nodes. AQUA uses AWS designed analytics processors that dramatically accelerate data compression, encryption, and data processing on queries that scan, filter, and aggregate large data sets.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/redshift/features/aqua/',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/new-aqua-advanced-query-accelerator-for-amazon-redshift/',
+      },
+      {
+        text: 'Introduction Video',
+        link: 'https://www.youtube.com/watch?v=0LVyd-kqpdE',
+        type: 'video',
+      },
+      {
+        text: 'Documentation',
+        link: 'https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-aqua.html',
+      },
+    ],
+    tags: ['Redshift', 'Analytics', 'New in 2021'],
+  },
+  {
+    name: 'Distributed Load Testing on AWS',
+    text:
+      'Distributed Load Testing on AWS helps you easily simulate thousands of users connecting to your application so that you can better understand your application performance under load. It uses containers on AWS Fargate to generate a specified number of transactions per second without having to provision servers.',
+    urls: [
+      {
+        text: 'Solutions Page',
+        link: 'https://aws.amazon.com/solutions/implementations/distributed-load-testing-on-aws/',
+      },
+      {
+        text: 'Implementation Guide',
+        link:
+          'https://docs.aws.amazon.com/solutions/latest/distributed-load-testing-on-aws/welcome.html',
+      },
+      {
+        text: 'Introduction Video',
+        link: 'https://www.youtube.com/watch?v=Uv7I75pLmb4',
+        type: 'video',
+      },
+    ],
+    tags: ['Solutions Implementations', 'Serverless', 'DevOps'],
+  },
+  {
+    name: 'AWS Lake Formation',
+    text:
+      'AWS Lake Formation is a service that makes it easy to set up a secure data lake in days. Lake Formation is an integrated data lake service that makes it easy for you to ingest, clean, catalog, transform, and secure your data and make it available for analysis and machine learning.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/lake-formation/',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://docs.aws.amazon.com/lake-formation/latest/dg/getting-started.html',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/lake-formation/latest/dg/what-is-lake-formation.html',
+      },
+      {
+        text: 'Deep Dive',
+        link: 'https://www.youtube.com/watch?v=Aj5T5fcZZr0',
+        type: 'video',
+      },
+      {
+        text: 'Blog Posts',
+        link: 'https://aws.amazon.com/blogs/big-data/category/analytics/aws-lake-formation/',
+      },
+    ],
+    tags: ['S3', 'Analytics', 'Storage'],
+  },
+  {
+    name: 'Machine Downtime Monitor on AWS',
+    text:
+      'Machine Downtime Monitor on AWS is a new solution that provides a dashboard to industrial customers to help them monitor the health of factory floor equipment, which enables easier identification of machine breakdowns and quicker response, improving asset availability.',
+    urls: [
+      {
+        text: 'Solutions Page',
+        link: 'https://aws.amazon.com/solutions/implementations/machine-downtime-monitor-on-aws/',
+      },
+      {
+        text: 'Implementation Guide',
+        link:
+          'https://docs.aws.amazon.com/solutions/latest/machine-downtime-monitor-on-aws/welcome.html',
+      },
+    ],
+    tags: ['Solutions Implementations', 'Monitoring', 'Observability', 'Industrial'],
+  },
+  {
+    name: 'Amazon QuickSight Q',
+    text:
+      'Quicksight Q is a machine learning-powered natural language capability that empowers business users to ask questions about all of their data using everyday business language and get answers in seconds.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/quicksight/q/',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/amazon-quicksight-q-to-answer-ad-hoc-business-questions/',
+      },
+      {
+        text: 'Q in 5 Minutes',
+        link: 'https://www.youtube.com/watch?v=0IBAS2GiWwo',
+        type: 'video',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=0dQqhzujpek',
+        type: 'video',
+      },
+    ],
+    tags: ['Business Intelligence', 'Analytics'],
+  },
 ];
 
 export default awsData;
