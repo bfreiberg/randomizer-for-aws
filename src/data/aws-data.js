@@ -1687,6 +1687,7 @@ const awsData = [
     ],
     tags: ['Networking', 'Management'],
   },
+<<<<<<< HEAD
   {
     name: 'CloudWatch Container Insights',
     text:
@@ -2504,5 +2505,7 @@ const awsData = [
     ],
     tags: ['Networking', 'Free tier'],
   },
+=======
+>>>>>>> Add more features
 ];
 export default awsData;
