@@ -1551,7 +1551,6 @@ const awsData = [
     ],
     tags: ['Networking', 'Management'],
   },
-<<<<<<< HEAD
   {
     name: 'CloudWatch Container Insights',
     text: 'Use CloudWatch Container Insights to collect, aggregate, and summarize metrics and logs from your containerized applications and microservices. Container Insights is available for Amazon ECS, Amazon EKS, and Kubernetes platforms on Amazon EC2.',
@@ -2302,7 +2301,6 @@ const awsData = [
     ],
     tags: ['Networking', 'Free tier'],
   },
-<<<<<<< HEAD
   {
     name: 'AWS Launch Wizard',
     text: 'AWS Launch Wizard offers a guided way of sizing, configuring, and deploying AWS resources for third party applications, such as Microsoft SQL Server Always On and HANA based SAP systems, without the need to manually identify and provision individual AWS resources.',
@@ -2955,10 +2953,6 @@ const awsData = [
       },
     ],
     tags: ['Migration', 'On-premise'],
-  },
-=======
-=======
->>>>>>> Add more features
->>>>>>> Add more features
+  }
 ];
 export default awsData;
