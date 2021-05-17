@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { headData } from '../data/site-data';
 import '../style/main.scss';
 
-export default () => {
+const notfound = () => {
   const { lang } = headData;
 
   return (
@@ -39,3 +39,5 @@ export default () => {
     </>
   );
 };
+
+export default notfound;
