@@ -81,7 +81,7 @@ const awsData = [
           'https://docs.aws.amazon.com/ground-station/latest/ug/what-is-aws-ground-station.html',
       },
     ],
-    tags: ['Satellite'],
+    tags: ['Peculiar', 'Satellite'],
   },
   {
     name: 'Amazon CodeGuru',
@@ -278,7 +278,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/cdk/latest/guide/getting_started.html',
       },
     ],
-    tags: ['IaC', 'CloudFormation', 'DevOps'],
+    tags: ['IaC', 'CloudFormation', 'DevOps', 'Open Source'],
   },
   {
     name: 'AWS IoT SiteWise',
@@ -1534,6 +1534,158 @@ const awsData = [
       },
     ],
     tags: ['Business Intelligence', 'Analytics'],
+  },
+  {
+    name: 'Bottlerocket',
+    text:
+      'Bottlerocket is a Linux-based open-source operating system that is purpose-built by Amazon Web Services for running containers. Bottlerocket includes only the essential software required to run containers, and ensures that the underlying software is always secure.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/bottlerocket/',
+      },
+      {
+        text: 'Getting Started Post',
+        link:
+          'https://aws.amazon.com/blogs/apn/getting-started-with-bottlerocket-and-certified-aws-partners/',
+      },
+      {
+        text: 'Introductory Video',
+        link: 'https://www.youtube.com/watch?v=L33l7Yd8oZM',
+        type: 'video',
+      },
+      {
+        text: 'GitHub Repo',
+        link: 'https://github.com/bottlerocket-os/bottlerocket#bottlerocket-os',
+        type: 'code',
+      },
+    ],
+    tags: ['Containers', 'Open Source'],
+  },
+  {
+    name: 'Step Functions integration with Eventbridge',
+    text:
+      'AWS Step Functions now supports a service integration with Amazon EventBridge, enabling you to send custom events from your Step Functions workflows to an EventBridge event bus without writing custom code.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/compute/introducing-the-amazon-eventbridge-service-integration-for-aws-step-functions/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/step-functions/latest/dg/connect-eventbridge.html',
+      },
+      {
+        text: 'Sample Project',
+        link:
+          'https://docs.aws.amazon.com/step-functions/latest/dg/sample-eventbridge-custom-event.html',
+      },
+      {
+        text: 'Example Repo',
+        link: 'https://github.com/aws-samples/aws-stepfunctions-examples',
+        type: 'code',
+      },
+    ],
+    tags: ['New in 2021'],
+  },
+  {
+    name: 'Amazon Braket',
+    text:
+      'Amazon Braket is a fully managed quantum computing service that helps researchers and developers get started with the technology to accelerate research and discovery. Amazon Braket provides a development environment for you to explore and build quantum algorithms.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/braket/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/braket/latest/developerguide/what-is-braket.html',
+      },
+      {
+        text: 'Hands-on Post',
+        link: 'https://aws.amazon.com/blogs/aws/amazon-braket-go-hands-on-with-quantum-computing/',
+      },
+      {
+        text: '10 Things to know',
+        link: 'https://www.youtube.com/watch?v=G9q3IMrcWMY',
+        type: 'video',
+      },
+    ],
+    tags: ['Peculiar', 'Compute'],
+  },
+  {
+    name: 'Amplify DataStore',
+    text:
+      'Amplify DataStore is an on-device storage engine that automatically synchronizes data between your mobile and web apps and your database in the AWS cloud to help you build real-time and offline apps faster.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/amplify/datastore/',
+      },
+      {
+        text: 'Docs',
+        link: 'https://docs.amplify.aws/lib/datastore/getting-started/q/platform/js',
+      },
+      {
+        text: 'Hands-on Post',
+        link:
+          'https://aws.amazon.com/blogs/mobile/connect-amplify-datastore-with-existing-sql-datasources-adding-offline-and-sync-features-in-your-application/',
+      },
+      {
+        text: 'New in DataStore',
+        link:
+          'https://aws.amazon.com/blogs/mobile/new-in-amplify-datastore-selective-sync-and-sort-functionality/',
+      },
+      {
+        text: 'New in DataStore',
+        link: 'https://www.youtube.com/watch?v=CXeRQn62Ptw',
+        type: 'video',
+      },
+    ],
+    tags: ['Database', 'Mobile', 'Amplify'],
+  },
+  {
+    name: 'Authentication with Amplify',
+    text:
+      "Amplify Auth lets you quickly set up secure authentication flows with a fully-managed user directory. Control what users have access to in your mobile and web apps with Amplify Auth's built-in authorization capabilities.",
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/amplify/authentication/',
+      },
+      {
+        text: 'Docs',
+        link: 'https://docs.amplify.aws/lib/auth/getting-started/q/platform/js',
+      },
+      {
+        text: 'Auth on iOS',
+        link: 'https://www.youtube.com/watch?v=spFOB-Z7l5s',
+        type: 'video',
+      },
+    ],
+    tags: ['Security', 'Mobile', 'Amplify'],
+  },
+  {
+    name: 'AWS Cloud Map',
+    text:
+      'AWS Cloud Map is a cloud resource discovery service. It enables you to name your application resources with custom names, and it automatically updates the locations of these dynamically changing resources.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/cloud-map/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/cloud-map/latest/dg/what-is-cloud-map.html',
+      },
+      {
+        text: 'Tutorial Video',
+        link: 'https://www.youtube.com/watch?v=xO08vlkJI7g',
+        type: 'video',
+      },
+    ],
+    tags: ['Networking', 'Management'],
   },
 ];
 
