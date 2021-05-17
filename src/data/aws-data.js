@@ -1687,6 +1687,194 @@ const awsData = [
     ],
     tags: ['Networking', 'Management'],
   },
+  {
+    name: 'CloudWatch Container Insights',
+    text:
+      'Use CloudWatch Container Insights to collect, aggregate, and summarize metrics and logs from your containerized applications and microservices. Container Insights is available for Amazon ECS, Amazon EKS, and Kubernetes platforms on Amazon EC2.',
+    urls: [
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/ContainerInsights.html',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/mt/introducing-container-insights-for-amazon-ecs/',
+      },
+      {
+        text: 'Workshop',
+        link: 'https://observability.workshop.aws/en/containerinsights.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=kn5TVKzBLrU',
+        type: 'video',
+      },
+    ],
+    tags: ['Containers', 'Observability', 'CloudWatch'],
+  },
+  {
+    name: 'AWS Chalice',
+    text:
+      'Chalice is a framework for writing serverless apps in python. It allows you to quickly create and deploy applications that use AWS Lambda.',
+    urls: [
+      {
+        text: 'Homepage',
+        link: 'https://aws.github.io/chalice/',
+      },
+      {
+        text: 'GitHub Repo',
+        link: 'https://github.com/aws/chalice#aws-chalice',
+        type: 'code',
+      },
+      {
+        text: 'Tutorials',
+        link: 'https://aws.github.io/chalice/tutorials/index.html',
+      },
+      {
+        text: 'Deploy with CDK',
+        link:
+          'https://aws.amazon.com/blogs/developer/deploying-aws-chalice-application-using-aws-cloud-development-kit/',
+      },
+    ],
+    tags: ['Developer Tools', 'Open Source'],
+  },
+  {
+    name: 'AWS CloudFormation Guard 2.0',
+    text:
+      'AWS CloudFormation Guard is an open-source general-purpose policy-as-code evaluation tool. It provides developers with a simple-to-use, yet powerful and expressive domain-specific language (DSL) to define policies and enables developers to validate JSON- or YAML-formatted structured data with those policies.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/de/about-aws/whats-new/2021/05/aws-cloudformation-guard-2-0-is-now-generally-available/',
+      },
+      {
+        text: 'GitHub Repo',
+        link: 'https://github.com/aws-cloudformation/cloudformation-guard#aws-cloudformation-guard',
+        type: 'code',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=4Q2ECUQGC84',
+        type: 'video',
+      },
+      {
+        text: "What's Next",
+        link: 'https://www.youtube.com/watch?v=-kLGiD3TYe8',
+        type: 'video',
+      },
+    ],
+    tags: ['Developer Tools', 'Open Source', 'CloudFormation', 'IaC', 'New in 2021'],
+  },
+  {
+    name: 'AWS App Runner',
+    text:
+      'AWS App Runner is a fully managed service that makes it easy for developers to quickly deploy containerized web applications and APIs, at scale and with no prior infrastructure experience required. App Runner automatically builds and deploys the web application and load balances traffic with encryption.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/apprunner/',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/apprunner/latest/dg/what-is-apprunner.html',
+      },
+      {
+        text: 'Roadmap',
+        link: 'https://github.com/aws/apprunner-roadmap',
+        type: 'code',
+      },
+      {
+        text: 'Workshop',
+        link: 'https://www.apprunnerworkshop.com/',
+      },
+      {
+        text: 'Workshop',
+        link: 'https://www.apprunnerworkshop.com/',
+      },
+    ],
+    tags: ['New in 2021', 'Containers', 'Developer Tools'],
+  },
+  {
+    name: 'AWS IoT Core Device Advisor',
+    text:
+      'AWS IoT Core Device Advisor is a fully managed cloud-based test capability to help developers validate their IoT devices for reliable and secure connectivity with AWS IoT Core.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/iot-core/device-advisor/',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/containers/introducing-aws-app-runner/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/iot/latest/developerguide/device-advisor.html',
+      },
+      {
+        text: 'Blog Posts',
+        link: 'https://aws.amazon.com/blogs/iot/tag/aws-iot-core-device-advisor/',
+      },
+    ],
+    tags: ['IoT', 'New in 2021'],
+  },
+  {
+    name: 'AWS Compute Optimizer',
+    text:
+      'AWS Compute Optimizer recommends optimal AWS resources for your workloads to reduce costs and improve performance by using machine learning to analyze historical utilization metrics.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/compute-optimizer/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/compute-optimizer/latest/ug/what-is-compute-optimizer.html',
+      },
+      {
+        text: 'Tech Talk',
+        link: 'https://www.youtube.com/watch?v=flhuwVwYomg',
+      },
+    ],
+    tags: ['EC2', 'Compute', 'Machine Learning'],
+  },
+  {
+    name: 'AWS License Manager',
+    text:
+      'AWS License Manager makes it easier to manage your software licenses from vendors such as Microsoft, SAP, Oracle, and IBM across AWS and on-premises environments. AWS License Manager also simplifies the management of your software licenses that require Amazon EC2 Dedicated Hosts.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/license-manager/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/license-manager/latest/userguide/license-manager.html',
+      },
+      {
+        text: 'Blog Posts',
+        link: 'https://aws.amazon.com/blogs/mt/category/management-tools/aws-license-manager/',
+      },
+      {
+        text: 'Overview Video',
+        link: 'https://www.youtube.com/watch?v=ikL5Axehutk',
+        type: 'video',
+      },
+      {
+        text: "What's next",
+        link: 'https://www.youtube.com/watch?v=sO79WOwebrc',
+        type: 'video',
+      },
+    ],
+    tags: ['Management', 'EC2'],
+  },
 ];
 
 export default awsData;
