@@ -658,7 +658,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control.html',
       },
     ],
-    tags: ['Security', 'Firewall', 'Organisations', 'WAF', 'Networking', 'New in 2021'],
+    tags: ['Security', 'Firewall', 'Organizations', 'WAF', 'Networking', 'New in 2021'],
   },
   {
     name: 'Amazon Route 53 Resolver DNS Firewall',
@@ -769,7 +769,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Organisations', 'Management'],
+    tags: ['Organizations', 'Management'],
   },
   {
     name: 'Amazon Kinesis Data Firehose',
@@ -1875,6 +1875,634 @@ const awsData = [
     ],
     tags: ['Management', 'EC2'],
   },
+  {
+    name: 'AWS Toolkit for Visual Studio Code',
+    text:
+      'The AWS Toolkit for VS Code is an open-source plugin that lets you leverage VS Code for the creation, debugging, and deployment of software applications on AWS. The AWS Toolkit extension shows resources in your AWS account through the AWS Explorer view.',
+    urls: [
+      {
+        text: 'Home Page',
+        link: 'https://aws.amazon.com/visualstudiocode/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/toolkit-for-vscode/latest/userguide/welcome.html',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://www.youtube.com/watch?v=hYtYaFVWcCU',
+        type: 'video',
+      },
+    ],
+    tags: ['Developer Tools', 'Open Source'],
+  },
+  {
+    name: 'Amazon CloudWatch Application Insights',
+    text:
+      'CloudWatch Application Insights facilitates observability for your applications and underlying AWS resources. It helps you set up the best monitors for your application resources to continuously analyze data for signs of problems with your applications.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/cloudwatch/features/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-application-insights.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=PBO636_t9n0',
+        type: 'video',
+      },
+    ],
+    tags: ['CloudWatch', 'Observability', 'Monitoring', 'Containers'],
+  },
+  {
+    name: 'Amazon SageMaker Pipelines',
+    text:
+      'Amazon SageMaker Pipelines is the first purpose-built, easy-to-use continuous integration and continuous delivery (CI/CD) service for machine learning (ML). With SageMaker Pipelines, you can create, automate, and manage end-to-end ML workflows at scale.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/sagemaker/pipelines/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/sagemaker/latest/dg/pipelines.html',
+      },
+      {
+        text: 'Introduction Video',
+        link: 'https://www.youtube.com/watch?v=Hvz2GGU3Z8g',
+        type: 'video',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/amazon-sagemaker-pipelines-brings-devops-to-machine-learning-projects/',
+      },
+    ],
+    tags: ['SageMaker', 'Machine Learning', 'DevOps'],
+  },
+  {
+    name: 'Predictive Scaling as Native Auto Scaling Policy',
+    text:
+      'Amazon EC2 Auto Scaling now natively supports Predictive Scaling so you can proactively scale out your Auto Scaling group to be ready for upcoming demand. Predictive Scaling can help you avoid the need to over-provision capacity while ensuring your application’s responsiveness.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-ec2-auto-scaling-introduces-predictive-scaling-native-scaling-policy/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html',
+      },
+    ],
+    tags: ['EC2', 'Auto Scaling', 'Machine Learning', 'New in 2021'],
+  },
+  {
+    name: 'AWS Application Cost Profiler',
+    text:
+      'AWS Application Cost Profiler provides you the ability to track the consumption of shared AWS resources used by software applications and report granular cost breakdown across tenant base.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/aws-cost-management/aws-application-cost-profiler/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/application-cost-profiler/latest/userguide/introduction.html',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/about-aws/whats-new/2021/05/aws-application-cost-profiler/',
+      },
+    ],
+    tags: ['Cost Management', 'New in 2021'],
+  },
+  {
+    name: 'Customizations for AWS Control Tower',
+    text:
+      'The Customizations for AWS Control Tower solution combines AWS Control Tower and other highly-available, trusted AWS services to help customers more quickly set up a secure, multi-account AWS environment using AWS best practices.',
+    urls: [
+      {
+        text: 'Solutions Page',
+        link:
+          'https://aws.amazon.com/solutions/implementations/customizations-for-aws-control-tower/',
+      },
+      {
+        text: 'Implementation Guide',
+        link:
+          'https://docs.aws.amazon.com/solutions/latest/customizations-for-aws-control-tower/overview.html',
+      },
+      {
+        text: 'Control Tower',
+        link: 'https://aws.amazon.com/controltower/',
+      },
+    ],
+    tags: ['Solutions Implementations', 'Management', 'Organizations'],
+  },
+  {
+    name: 'Database Activity Streams',
+    text:
+      'Database activity streams provide a near real-time stream of the activity in your relational database. It can help you monitor and audit database activity to provide safeguards for your database and help you meet compliance and regulatory requirements.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/rds/features/security/#Database_Activity_Streams',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/AmazonRDS/latest/AuroraUserGuide/DBActivityStreams.html',
+      },
+      {
+        text: 'Lab for MySQL',
+        link: 'https://awsauroralabsmy.com/win/apg-das/',
+      },
+    ],
+    tags: ['Database', 'Streaming'],
+  },
+  {
+    name: 'AWS App2Container',
+    text:
+      'App2Container (A2C) is a command-line tool for modernizing .NET and Java applications into containerized applications. You simply select the application you want to containerize, and A2C packages the application artifact and identified dependencies into container images, configures the network ports, and generates the ECS task and Kubernetes pod definitions.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/app2container/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/app2container/latest/UserGuide/what-is-a2c.html',
+      },
+      {
+        text: 'Deploy to App Runner',
+        link:
+          'https://docs.aws.amazon.com/app2container/latest/UserGuide/a2c-integrations-apprunner.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=69S3AyBWIjo',
+        type: 'video',
+      },
+      {
+        text: 'Launch Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/aws-app2container-a-new-containerizing-tool-for-java-and-asp-net-applications/',
+      },
+    ],
+    tags: ['Containers', 'DevOps'],
+  },
+  {
+    name: 'Amazon Lightsail',
+    text:
+      'Lightsail is an easy-to-use virtual private server (VPS) that offers you everything needed to build an application or website, plus a cost-effective, monthly plan. It is the easiest way to get started with AWS for developers, small businesses, students, and others.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/lightsail/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://lightsail.aws.amazon.com/ls/docs/en_us/all',
+      },
+      {
+        text: 'Blog Posts',
+        link: 'https://aws.amazon.com/blogs/aws/category/compute/amazon-lightsail/',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=taMlabDBO58',
+        type: 'video',
+      },
+      {
+        text: 'Tutorials',
+        link: 'https://lightsail.aws.amazon.com/ls/docs/en_us/how-to/articles',
+      },
+    ],
+    tags: ['Developer Tools', 'DevOps'],
+  },
+  {
+    name: 'AWS Lambda Extensions',
+    text:
+      'AWS Lambda Extensions are a new way to integrate your favorite operational tools for monitoring, observability, security, and governance with AWS Lambda. Extensions use the Lambda Runtime Extensions API to integrate deeply into the Lambda environment.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/getting-started-with-using-your-favorite-operational-tools-on-aws-lambda-extensions-are-now-generally-available/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/lambda/latest/dg/runtimes-extensions-api.html',
+      },
+      {
+        text: 'Overview Video',
+        link: 'https://www.youtube.com/watch?v=cKj01IU4WQ0',
+        type: 'video',
+      },
+      {
+        text: 'Examples Repo',
+        link: 'https://github.com/aws-samples/aws-lambda-extensions#aws-lambda-extensions',
+        type: 'code',
+      },
+      {
+        text: 'Deep Dive Series',
+        link: 'https://www.youtube.com/watch?v=sAgUcJOwElU',
+        type: 'video',
+      },
+    ],
+    tags: ['Lambda', 'Serverless', 'New in 2021', 'Integrations'],
+  },
+  {
+    name: 'AWS Glue Studio',
+    text:
+      'AWS Glue Studio is a new graphical interface that makes it easy to create, run, and monitor extract, transform, and load (ETL) jobs in AWS Glue. You can visually compose data transformation workflows and seamlessly run them on AWS Glue’s Apache Spark-based serverless ETL engine.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/glue/features/#Data_Transformation',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/glue/latest/ug/what-is-glue-studio.html',
+      },
+      {
+        text: 'Demo Series',
+        link: 'https://www.youtube.com/watch?v=KkN8lQ-jr58',
+        type: 'video',
+      },
+      {
+        text: 'Workshop',
+        link: 'https://glue-studio.workshop.aws/0_introduction.html',
+        type: 'video',
+      },
+    ],
+    tags: ['Glue', 'Low Code'],
+  },
+  {
+    name: 'Amazon Forecast Weather Index',
+    text:
+      'The Amazon Forecast Weather Index is a built-in featurization that incorporates historical and projected weather information into your model. It is especially useful for retail use cases, where temperature and precipitation can significantly affect product demand.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/machine-learning/amazon-forecast-weather-index-automatically-include-local-weather-to-increase-your-forecasting-model-accuracy/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/forecast/latest/dg/weather.html',
+      },
+      {
+        text: 'Workshop',
+        link:
+          'https://github.com/aws-samples/amazon-forecast-samples/blob/master/notebooks/advanced/Weather_index/1.%20Training%20your%20model%20with%20Weather%20Index.ipynb',
+        type: 'code',
+      },
+    ],
+    tags: ['Machine Learning'],
+  },
+  {
+    name: 'VPC endpoints for AWS X-Ray',
+    text:
+      'With VPC endpoints for AWS X-Ray, you can communicate with X-Ray service from your VPC without exposing that traffic to the public internet. VPC endpoints deliver reliable connectivity to X-Ray without requiring internet gateway, NAT devices, or firewall proxies.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/mt/using-vpc-endpoints-for-aws-x-ray/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/xray/latest/devguide/xray-security-vpc-endpoint.html',
+      },
+      {
+        text: 'X-Ray Page',
+        link: 'https://aws.amazon.com/xray/',
+      },
+    ],
+    tags: ['Monitoring', 'Observability'],
+  },
+  {
+    name: 'AWS Security Hub integration with JSM',
+    text:
+      'AWS Security Hub now supports a bidirectional integration with Atlassian Jira Service Management (JSM). You can now automatically create and update issues in Atlassian JSM from Security Hub findings. Updates to those issues in Atlassian JSM will be synced with the findings in AWS Security Hub.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/about-aws/whats-new/2021/05/aws-security-hub-supports-bidirectional-integration-with-atlassian-jira-service-management/',
+      },
+      {
+        text: 'Admin Guide',
+        link:
+          'https://docs.aws.amazon.com/servicecatalog/latest/adminguide/integrations-jiraservicedesk.html',
+      },
+      {
+        text: 'AWS Connector for JSM app',
+        link:
+          'https://marketplace.atlassian.com/apps/1221283/aws-service-management-connector-for-jsm?hosting=server&tab=overview',
+      },
+      {
+        text: 'Security Hub',
+        link: 'https://aws.amazon.com/security-hub/',
+      },
+    ],
+    tags: ['Security', 'New in 2021', 'Integrations', 'Free Trial'],
+  },
+  {
+    name: 'AWS Security Hub integration with ServiceNow',
+    text:
+      'AWS Security Hub now supports a bidirectional integration with ServiceNow ITSM, making it easier for Security Hub users to automatically create and update tickets in ServiceNow ITSM from Security Hub findings and ensure that updates to those tickets are synced with the findings.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/security/how-to-set-up-two-way-integration-between-aws-security-hub-and-servicenow/',
+      },
+      {
+        text: 'Admin Guide',
+        link:
+          'https://docs.aws.amazon.com/servicecatalog/latest/adminguide/integrations-servicenow.html',
+      },
+      {
+        text: 'AWS Connector for ServiceNow',
+        link:
+          'https://store.servicenow.com/sn_appstore_store.do#!/store/application/f0b117a3db32320093a7d7a0cf961912/3.0.4',
+      },
+      {
+        text: 'Security Hub',
+        link: 'https://aws.amazon.com/security-hub/',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=OYTi0sjEggE',
+        type: 'video',
+      },
+    ],
+    tags: ['Security', 'Integrations', 'Free Trial'],
+  },
+  {
+    name: 'AWS Certificate Manager Private Certificate Authority',
+    text:
+      'ACM Private CA is a managed private CA service that helps you easily and securely manage the lifecycle of your private certificates. ACM Private CA provides you a highly-available private CA service without the upfront investment and ongoing maintenance costs of operating your own private CA.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/certificate-manager/private-certificate-authority/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/acm-pca/latest/userguide/PcaWelcome.html',
+      },
+      {
+        text: 'Demo Vide',
+        link: 'https://www.youtube.com/watch?v=nr3qeP_xfCo',
+        type: 'video',
+      },
+      {
+        text: 'Deep Dive',
+        link: 'https://www.youtube.com/watch?v=7dRlN-qZvaA',
+        type: 'video',
+      },
+    ],
+    tags: ['Security', 'Networking', 'Organizations'],
+  },
+  {
+    name: 'Amazon Managed Workflows for Apache Airflow',
+    text:
+      'Managed Workflows for Apache Airflow is a managed orchestration service for Apache Airflow that makes it easier to set up and operate end-to-end data pipelines in the cloud at scale. With Managed Workflows, you can create workflows without having to manage the underlying infrastructure for scalability, availability, and security.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/managed-workflows-for-apache-airflow/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/mwaa/latest/userguide/airflow-versions.html',
+      },
+      {
+        text: 'Support for Airflow version 2.0',
+        link:
+          'https://aws.amazon.com/about-aws/whats-new/2021/05/amazon-managed-workflows-for-apache-airflow-mwaa-now-supports-apache-airflow/',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://www.youtube.com/watch?v=ZET50M20hkU',
+        type: 'video',
+      },
+      {
+        text: 'Examples',
+        link: 'https://github.com/aws-samples/amazon-mwaa-examples',
+        type: 'code',
+      },
+    ],
+    tags: ['Application Integration'],
+  },
+  {
+    name: 'Fleet Hub for AWS IoT Device Management',
+    text:
+      "With Fleet Hub you can build standalone web applications for monitoring the health of your device fleets. You can make these applications available to users in your organization, even if they don't have AWS accounts. Use Fleet Hub to manage common fleet-wide tasks such as investigating and remediating operational and security issues.",
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/iot-device-management/features/#Fleet_Hub',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/iot/latest/fleethubuserguide/what-is-aws-iot-monitor.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=HXO4QpEb-t4',
+        type: 'video',
+      },
+      {
+        text: 'Deep Dive',
+        link: 'https://www.youtube.com/watch?v=SqSS174GTYo',
+        type: 'video',
+      },
+    ],
+    tags: ['IoT', 'New in 2021'],
+  },
+  {
+    name: 'Amazon Kinesis Data Analytics Studio',
+    text:
+      'Kinesis Data Analytics Studio enables you to interactively query data streams in real time, and easily build and run stream processing applications using SQL, Python, and Scala. With a few clicks, you can launch a serverless notebook to perform ad hoc querying and live data exploration on data streams, and get results in seconds.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link:
+          'https://aws.amazon.com/kinesis/data-analytics/features/#Amazon_Kinesis_Data_Analytics_Studio',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/kinesisanalytics/latest/java/how-notebook.html',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/introducing-amazon-kinesis-data-analytics-studio-quickly-interact-with-streaming-data-using-sql-python-or-scala/',
+      },
+      {
+        text: 'Getting Started',
+        link:
+          'https://aws.amazon.com/kinesis/data-analytics/getting-started/#It.E2.80.99s_easy_to_get_started_with_Amazon_Kinesis_Data_Analytics_Studio_',
+      },
+    ],
+    tags: ['Streaming', 'Analytics', 'New in 2021'],
+  },
+  {
+    name: 'Amazon Polly',
+    text:
+      'Amazon Polly is a service that turns text into lifelike speech. Amazon Polly enables existing applications to speak as a first class feature and creates the opportunity for entirely new categories of speech-enabled products, from mobile apps and cars, to devices and appliances.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/polly/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/polly/latest/dg/what-is.html',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/introducing-amazon-kinesis-data-analytics-studio-quickly-interact-with-streaming-data-using-sql-python-or-scala/',
+      },
+      {
+        text: 'Blog Posts',
+        link:
+          'https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-polly/',
+      },
+    ],
+    tags: ['Machine Learning'],
+  },
+  {
+    name: 'Amazon Redshift ML',
+    text:
+      'With Amazon Redshift ML powered by Amazon SageMaker, you can use SQL statements to create and train machine learning models from your data in Amazon Redshift and then use these models for use cases such as churn prediction and fraud risk scoring directly in your queries and reports.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/redshift/features/redshift-ml/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/high-throughput-fifo.html',
+      },
+      {
+        text: 'Announcement Post',
+        link:
+          'https://aws.amazon.com/blogs/big-data/create-train-and-deploy-machine-learning-models-in-amazon-redshift-using-sql-with-amazon-redshift-ml/',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=bpiKwSj0X7g',
+        type: 'video',
+      },
+    ],
+    tags: ['Redshift', 'Analytics', 'Machine Learning', 'SageMaker', 'New in 2021'],
+  },
+  {
+    name: 'High Throughput Mode for FIFO SQS Queues',
+    text:
+      'With high throughput mode for FIFO queues Amazon SQS now allows you to process up to 3000 messages per second per API action.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/sqs/features/',
+      },
+      {
+        text: 'User Guide',
+        link:
+          'https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/high-throughput-fifo.html',
+      },
+    ],
+    tags: ['Messaging', 'Application Integration'],
+  },
+  {
+    name: 'Amazon Kendra',
+    text:
+      'Amazon Kendra is a highly accurate and easy to use enterprise search service that’s powered by machine learning. Kendra enables developers to add search capabilities to their applications so their end users can discover information stored within the vast amount of content spread across their company.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/kendra/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/kendra/latest/dg/what-is-kendra.html',
+      },
+      {
+        text: 'Tutorial',
+        link:
+          'https://aws.amazon.com/getting-started/hands-on/create-query-index-with-amazon-kendra/',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=eWg9xaC4vNw',
+        type: 'video',
+      },
+      {
+        text: 'Blog Posts',
+        link:
+          'https://aws.amazon.com/blogs/machine-learning/category/artificial-intelligence/amazon-kendra/',
+      },
+    ],
+    tags: ['Machine Learning', 'Free tier'],
+  },
+  {
+    name: 'Amazon ECS Anywhere',
+    text:
+      'ECS Anywhere is a feature of Amazon ECS that enables you to run and manage container-based applications on-premises, including on your own virtual machines and bare metal servers. With ECS Anywhere, you do not need to install or operate local container orchestration software, thus reducing operational overhead.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/ecs/anywhere/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-anywhere.html',
+      },
+      {
+        text: 'Launch Post',
+        link:
+          'https://aws.amazon.com/blogs/aws/getting-started-with-amazon-ecs-anywhere-now-generally-available/',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=-eud6yUXsJM',
+        type: 'video',
+      },
+    ],
+    tags: ['Containers', 'New in 2021'],
+  },
+  {
+    name: 'HTTP API for Amazon API Gateway',
+    text:
+      'HTTP APIs are optimized for building APIs that proxy to AWS Lambda functions or HTTP backends, making them ideal for serverless workloads. HTTP APIs enable you to create RESTful APIs with lower latency and lower cost than REST APIs.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/api-gateway/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/apigateway/latest/developerguide/http-api.html',
+      },
+      {
+        text: 'Tech Talk',
+        link: 'https://www.youtube.com/watch?v=2yg0XgEjtbA',
+        type: 'video',
+      },
+    ],
+    tags: ['Networking', 'Free tier'],
+  },
 ];
-
 export default awsData;
