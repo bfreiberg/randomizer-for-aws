@@ -5,7 +5,7 @@ export const headData = {
   title: 'Want to experiment? Try the Feature Randomizer for AWS',
   lang: 'en',
   description:
-    "Can't decide on an AWS Feature to try next or looking to something new to experiment with? Try the Feature Randomizer for AWS",
+    "Can't decide on an AWS Feature to try next or looking for something new to experiment with? Try the Feature Randomizer for AWS",
 };
 
 // HERO DATA
