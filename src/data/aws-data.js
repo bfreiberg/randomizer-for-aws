@@ -2953,6 +2953,75 @@ const awsData = [
       },
     ],
     tags: ['Migration', 'On-premise'],
-  }
+  },
+  {
+    name: 'Cross-account Data Sharing for Redshift',
+    text: 'Cross-account Data Sharing for Redshift allows you to share data in your Amazon Redshift data warehouse with any number of stakeholders across AWS accounts. It makes it possible for you to share data across organizations and collaborate with external parties while meeting compliance and security requirements.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/redshift/features/data-sharing/',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/aws/cross-account-data-sharing-for-amazon-redshift/',
+      },
+      {
+        text: 'Introduction Video',
+        link: 'https://www.youtube.com/watch?v=0LVyd-kqpdE',
+        type: 'video',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/redshift/latest/dg/across-account.html',
+      },
+    ],
+    tags: ['Redshift', 'Analytics', 'New in 2021'],
+  },
+  {
+    name: 'AWS Innovation Sandbox',
+    text: 'Amazon CloudWatch Monitoring Framework for Apache is a reference architecture that makes it easier for customers to set up Amazon CloudWatch dashboards to monitor Apache workloads running on AWS.',
+    urls: [
+      {
+        text: 'AWS Solutions Library',
+        link: 'https://aws.amazon.com/solutions/implementations/aws-innovation-sandbox/',
+      },
+      {
+        text: 'Implementation Guide',
+        link: 'https://docs.aws.amazon.com/solutions/latest/aws-innovation-sandbox/welcome.html',
+      },
+      {
+        text: 'GitHub repo',
+        link: 'https://github.com/awslabs/aws-innovation-sandbox',
+        type: 'code',
+      },
+    ],
+    tags: ['Solutions Implementations', 'Management', 'Organizations'],
+  },
+  {
+    name: 'SageMaker Edge Manager',
+    text: 'AAmazon SageMaker Edge Manager is a capability in Amazon SageMaker that makes it easier to optimize, secure, monitor, and maintain machine learning models on fleets of edge devices such as smart cameras, robots, personal computers, and mobile devices.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/sagemaker/edge-manager/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/sagemaker/latest/dg/edge.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=eVdxDwa-00E',
+        type: 'video',
+      },
+      {
+        text: 'What is Edge Manager?',
+        link: 'https://www.youtube.com/watch?v=zS0Q3bdsLiU',
+        type: 'video',
+      },
+    ],
+    tags: ['SageMaker', 'Machine Learning', 'IoT'],
+  },
 ];
 export default awsData;
