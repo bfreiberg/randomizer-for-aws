@@ -16,7 +16,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/AmazonS3/latest/userguide/transforming-objects.html',
       },
     ],
-    tags: ['S3', 'Lambda', 'Storage', 'Serverless', 'New in 2021'],
+    tags: ['S3', 'Lambda', 'Storage', 'Serverless'],
   },
   {
     name: 'DynamoDB Streams',
@@ -161,7 +161,7 @@ const awsData = [
         link: 'https://console.aws.amazon.com/devops-guru/home#/cost-estimator',
       },
     ],
-    tags: ['Machine Learning', 'Developer Tools', 'Guru', 'DevOps', 'New in 2021'],
+    tags: ['Machine Learning', 'Developer Tools', 'Guru', 'DevOps'],
   },
   {
     name: 'Amazon Personalize',
@@ -231,7 +231,7 @@ const awsData = [
         link: 'https://aws.amazon.com/cloudfront/faqs/#CloudFront_Functions',
       },
     ],
-    tags: ['Content Delivery', 'New in 2021', 'Serverless'],
+    tags: ['Content Delivery', 'Serverless'],
   },
   {
     name: 'AWS Cloud Development Kit',
@@ -459,7 +459,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/cloudwatch-animated-dashboard.html',
       },
     ],
-    tags: ['CloudWatch', 'New in 2021', 'Monitoring', 'Observability'],
+    tags: ['CloudWatch', 'Monitoring', 'Observability'],
   },
   {
     name: 'Amazon Elasticsearch Service',
@@ -521,7 +521,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-budgets-budgetsaction.html',
       },
     ],
-    tags: ['CloudFormation', 'IaC', 'New in 2021', 'Cost Management'],
+    tags: ['CloudFormation', 'IaC', 'Cost Management'],
   },
   {
     name: 'Instance Refresh for EC2 Auto Scaling',
@@ -580,7 +580,7 @@ const awsData = [
         type: 'code',
       },
     ],
-    tags: ['EC2', 'Compute', 'Auto Scaling', 'New in 2021'],
+    tags: ['EC2', 'Compute', 'Auto Scaling'],
   },
   {
     name: 'AWS WAF Bot Control',
@@ -599,7 +599,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/waf/latest/developerguide/waf-bot-control.html',
       },
     ],
-    tags: ['Security', 'Firewall', 'Organizations', 'WAF', 'Networking', 'New in 2021'],
+    tags: ['Security', 'Firewall', 'Organizations', 'WAF', 'Networking'],
   },
   {
     name: 'Amazon Route 53 Resolver DNS Firewall',
@@ -618,7 +618,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/Route53/latest/DeveloperGuide/resolver-dns-firewall-overview.html',
       },
     ],
-    tags: ['Security', 'Firewall', 'Route 53', 'Networking', 'New in 2021'],
+    tags: ['Security', 'Firewall', 'Route 53', 'Networking'],
   },
   {
     name: 'EC2 Serial Console',
@@ -633,7 +633,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-serial-console.html',
       },
     ],
-    tags: ['EC2', 'Compute', 'New in 2021', 'Nitro'],
+    tags: ['EC2', 'Compute', 'Nitro'],
   },
   {
     name: 'AWS Systems Manager Incident Manager',
@@ -652,7 +652,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/incident-manager/latest/userguide/what-is-incident-manager.html',
       },
     ],
-    tags: ['Systems Manager', 'Management', 'New in 2021', 'Operations'],
+    tags: ['Systems Manager', 'Management', 'Operations'],
   },
   {
     name: 'S3 Select',
@@ -1229,11 +1229,11 @@ const awsData = [
         type: 'code',
       },
     ],
-    tags: ['Serverless', 'Containers', 'New in 2021'],
+    tags: ['Serverless', 'Containers'],
   },
   {
     name: 'Amazon Location Service',
-    text: 'Amazon Location Service (in Preview) is a fully managed service that makes it easy for developers to add location data, such as maps, points of interest, and geocoding to applications, without sacrificing data security, user privacy, data quality, or cost.',
+    text: 'Amazon Location Service is a fully managed service that makes it easy for developers to add location data, such as maps, points of interest, and geocoding to applications, without sacrificing data security, user privacy, data quality, or cost.',
     urls: [
       {
         text: 'Feature Page',
@@ -1258,7 +1258,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Developer Tools', 'New in 2021'],
+    tags: ['Developer Tools'],
   },
   {
     name: 'AWS Systems Manager Change Calendar',
@@ -1296,7 +1296,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/athena/latest/ug/glue-athena.html',
       },
     ],
-    tags: ['Analytics', 'Organizations', 'New in 2021'],
+    tags: ['Analytics', 'Organizations'],
   },
   {
     name: 'AQUA for Redshift',
@@ -1320,7 +1320,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/redshift/latest/mgmt/managing-cluster-aqua.html',
       },
     ],
-    tags: ['Redshift', 'Analytics', 'New in 2021'],
+    tags: ['Redshift', 'Analytics'],
   },
   {
     name: 'Distributed Load Testing on AWS',
@@ -1457,7 +1457,7 @@ const awsData = [
         type: 'code',
       },
     ],
-    tags: ['Step Functions', 'New in 2021', 'Workflows'],
+    tags: ['Step Functions', 'Workflows'],
   },
   {
     name: 'Amazon Braket',
@@ -1623,7 +1623,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Developer Tools', 'Open Source', 'CloudFormation', 'IaC', 'New in 2021'],
+    tags: ['Developer Tools', 'Open Source', 'CloudFormation', 'IaC'],
   },
   {
     name: 'AWS App Runner',
@@ -1655,7 +1655,7 @@ const awsData = [
         link: 'https://www.apprunnerworkshop.com/',
       },
     ],
-    tags: ['New in 2021', 'Containers', 'Developer Tools'],
+    tags: ['Containers', 'Developer Tools'],
   },
   {
     name: 'AWS IoT Core Device Advisor',
@@ -1678,7 +1678,7 @@ const awsData = [
         link: 'https://aws.amazon.com/blogs/iot/tag/aws-iot-core-device-advisor/',
       },
     ],
-    tags: ['IoT', 'New in 2021'],
+    tags: ['IoT'],
   },
   {
     name: 'AWS Compute Optimizer',
@@ -1805,7 +1805,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/autoscaling/ec2/userguide/ec2-auto-scaling-predictive-scaling.html',
       },
     ],
-    tags: ['EC2', 'Auto Scaling', 'Machine Learning', 'New in 2021'],
+    tags: ['EC2', 'Auto Scaling', 'Machine Learning'],
   },
   {
     name: 'AWS Application Cost Profiler',
@@ -1824,7 +1824,7 @@ const awsData = [
         link: 'https://aws.amazon.com/about-aws/whats-new/2021/05/aws-application-cost-profiler/',
       },
     ],
-    tags: ['Cost Management', 'New in 2021'],
+    tags: ['Cost Management', 'Cloud Economics'],
   },
   {
     name: 'Customizations for AWS Control Tower',
@@ -1948,7 +1948,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Lambda', 'Serverless', 'New in 2021', 'Integrations'],
+    tags: ['Lambda', 'Serverless', 'Integrations'],
   },
   {
     name: 'AWS Glue Studio',
@@ -2035,7 +2035,7 @@ const awsData = [
         link: 'https://aws.amazon.com/security-hub/',
       },
     ],
-    tags: ['Security', 'New in 2021', 'Integrations', 'Free Trial'],
+    tags: ['Security', 'Integrations', 'Free Trial'],
   },
   {
     name: 'AWS Security Hub integration with ServiceNow',
@@ -2142,7 +2142,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['IoT', 'New in 2021'],
+    tags: ['IoT'],
   },
   {
     name: 'Amazon Kinesis Data Analytics Studio',
@@ -2165,7 +2165,7 @@ const awsData = [
         link: 'https://aws.amazon.com/kinesis/data-analytics/getting-started/#It.E2.80.99s_easy_to_get_started_with_Amazon_Kinesis_Data_Analytics_Studio_',
       },
     ],
-    tags: ['Streaming', 'Analytics', 'New in 2021'],
+    tags: ['Streaming', 'Analytics'],
   },
   {
     name: 'Amazon Polly',
@@ -2212,7 +2212,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Redshift', 'Analytics', 'Machine Learning', 'SageMaker', 'New in 2021'],
+    tags: ['Redshift', 'Analytics', 'Machine Learning', 'SageMaker'],
   },
   {
     name: 'High Throughput Mode for FIFO SQS Queues',
@@ -2279,7 +2279,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Containers', 'On-premise', 'New in 2021'],
+    tags: ['Containers', 'On-premise'],
   },
   {
     name: 'HTTP API for Amazon API Gateway',
@@ -2400,7 +2400,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Containers', 'New in 2021'],
+    tags: ['Containers'],
   },
   {
     name: 'Amazon Lookout for Vision',
@@ -2425,7 +2425,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Industrial', 'Machine Learning', 'Free tier', 'New in 2021', 'Lookout'],
+    tags: ['Industrial', 'Machine Learning', 'Free tier', 'Lookout'],
   },
   {
     name: 'Amazon Lookout for Metrics',
@@ -2445,7 +2445,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Machine Learning', 'Monitoring', 'Free tier', 'New in 2021', 'Lookout'],
+    tags: ['Machine Learning', 'Monitoring', 'Free tier', 'Lookout'],
   },
   {
     name: 'Amazon Lookout for Equipment',
@@ -2470,7 +2470,7 @@ const awsData = [
         type: 'code',
       },
     ],
-    tags: ['Industrial', 'Machine Learning', 'Monitoring', 'Free tier', 'New in 2021', 'Lookout'],
+    tags: ['Industrial', 'Machine Learning', 'Monitoring', 'Free tier', 'Lookout'],
   },
   {
     name: 'Amazon SageMaker Debugger',
@@ -2539,7 +2539,7 @@ const awsData = [
         link: 'https://babelfish-for-postgresql.github.io/babelfish-for-postgresql/',
       },
     ],
-    tags: ['Database', 'In Preview'],
+    tags: ['Database', 'Migration'],
   },
   {
     name: 'Amazon HealthLake',
@@ -2559,7 +2559,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Data Lake', 'In Preview'],
+    tags: ['Data Lake', 'Storage', 'Analytics'],
   },
   {
     name: 'AWS Audit Manager',
@@ -2579,7 +2579,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Security', 'New in 2021', 'Free trial', 'Compliance'],
+    tags: ['Security', 'Free trial', 'Compliance'],
   },
   {
     name: 'AWS Service Catalog AppRegistry',
@@ -2701,7 +2701,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Database', 'New in 2021'],
+    tags: ['Database'],
   },
   {
     name: 'AWS MLOps Framework',
@@ -2751,7 +2751,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Machine Learning', 'New in 2021', 'Developer Tools'],
+    tags: ['Machine Learning', 'Developer Tools'],
   },
   {
     name: 'SageMaker Feature Store',
@@ -2776,7 +2776,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['Machine Learning', 'New in 2021', 'SageMaker'],
+    tags: ['Machine Learning', 'SageMaker'],
   },
   {
     name: 'Amazon Lex',
@@ -2857,7 +2857,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/step-functions/latest/dg/tutorial-workflow-studio-using.html',
       },
     ],
-    tags: ['Step Functions', 'Workflows', 'Low Code', 'New in 2021'],
+    tags: ['Step Functions', 'Workflows', 'Low Code'],
   },
   {
     name: 'AWS CloudFormation registry',
@@ -2877,7 +2877,7 @@ const awsData = [
         type: 'video',
       },
     ],
-    tags: ['CloudFormation', 'IaC', 'New in 2021'],
+    tags: ['CloudFormation', 'IaC'],
   },
   {
     name: 'Amazon DynamoDB Accelerator',
@@ -2907,7 +2907,7 @@ const awsData = [
         link: 'https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/stacksets-import.html',
       },
     ],
-    tags: ['CloudFormation', 'IaC', 'New in 2021'],
+    tags: ['CloudFormation', 'IaC'],
   },
   {
     name: 'CDK Pipelines',
@@ -2927,7 +2927,7 @@ const awsData = [
         type: 'code',
       },
     ],
-    tags: ['CDK', 'IaC', 'New in 2021'],
+    tags: ['CDK', 'IaC'],
   },
   {
     name: 'AWS DataSync',
@@ -2953,6 +2953,171 @@ const awsData = [
       },
     ],
     tags: ['Migration', 'On-premise'],
+  },
+  {
+    name: 'Cross-account Data Sharing for Redshift',
+    text: 'Cross-account Data Sharing for Redshift allows you to share data in your Amazon Redshift data warehouse with any number of stakeholders across AWS accounts. It makes it possible for you to share data across organizations and collaborate with external parties while meeting compliance and security requirements.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/redshift/features/data-sharing/',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/aws/cross-account-data-sharing-for-amazon-redshift/',
+      },
+      {
+        text: 'Introduction Video',
+        link: 'https://www.youtube.com/watch?v=0LVyd-kqpdE',
+        type: 'video',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/redshift/latest/dg/across-account.html',
+      },
+    ],
+    tags: ['Redshift', 'Analytics'],
+  },
+  {
+    name: 'AWS Innovation Sandbox',
+    text: 'Amazon CloudWatch Monitoring Framework for Apache is a reference architecture that makes it easier for customers to set up Amazon CloudWatch dashboards to monitor Apache workloads running on AWS.',
+    urls: [
+      {
+        text: 'AWS Solutions Library',
+        link: 'https://aws.amazon.com/solutions/implementations/aws-innovation-sandbox/',
+      },
+      {
+        text: 'Implementation Guide',
+        link: 'https://docs.aws.amazon.com/solutions/latest/aws-innovation-sandbox/welcome.html',
+      },
+      {
+        text: 'GitHub repo',
+        link: 'https://github.com/awslabs/aws-innovation-sandbox',
+        type: 'code',
+      },
+    ],
+    tags: ['Solutions Implementations', 'Management', 'Organizations'],
+  },
+  {
+    name: 'SageMaker Edge Manager',
+    text: 'Amazon SageMaker Edge Manager is a capability in Amazon SageMaker that makes it easier to optimize, secure, monitor, and maintain machine learning models on fleets of edge devices such as smart cameras, robots, personal computers, and mobile devices.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/sagemaker/edge-manager/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/sagemaker/latest/dg/edge.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=eVdxDwa-00E',
+        type: 'video',
+      },
+      {
+        text: 'What is Edge Manager?',
+        link: 'https://www.youtube.com/watch?v=zS0Q3bdsLiU',
+        type: 'video',
+      },
+    ],
+    tags: ['SageMaker', 'Machine Learning', 'IoT'],
+  },
+  {
+    name: 'AWS Billing Conductor',
+    text: 'The AWS Billing Conductor allows you to easily provide customizable pricing and cost visibility for your end customers or business units. You can logically group accounts by financial ownership, control the price those accounts see in the Billing console and Cost and Usage Report, as well as distribute credits, fees, and shared services costs.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/aws-cost-management/aws-billing-conductor/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/billingconductor/latest/userguide/what-is-billingconductor.html',
+      },
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/aws-cloud-financial-management/getting-started-with-aws-billing-conductor/',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://aws.amazon.com/aws-cost-management/resources/getting-started-with-aws-billing-conductor/',
+      },
+    ],
+    tags: ['Cost Management', 'Cloud Economics', 'New in 2022'],
+  },
+  {
+    name: 'Amazon Comprehend',
+    text: 'Amazon Comprehend is a natural-language processing service that uses machine learning to uncover valuable insights and connections in text. It develops insights by recognizing the entities, key phrases, language, sentiments, and other common elements in a document.',
+    urls: [
+      {
+        text: 'Feature Page',
+        link: 'https://aws.amazon.com/comprehend/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/comprehend/latest/dg/what-is.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=IWxSR07Y5u8',
+        type: 'video',
+      },
+      {
+        text: 'Getting Started',
+        link: 'https://aws.amazon.com/getting-started/hands-on/analyze-sentiment-comprehend/',
+      },
+    ],
+    tags: ['Machine Learning', 'Low Code'],
+  },
+  {
+    name: 'AWS Backup support for S3',
+    text: 'With S3 support in AWS Backup you can centrally automate backup and restore of your application data stored in Amazon S3 along with other AWS services for compute, storage, and database.',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/storage/automate-and-centrally-manage-data-protection-for-amazon-s3-with-aws-backup/',
+      },
+      {
+        text: 'Developer Guide',
+        link: 'https://docs.aws.amazon.com/aws-backup/latest/devguide/s3-backups.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=BvJWhzMuNlg',
+        type: 'video',
+      },
+    ],
+    tags: ['S3', 'Storage'],
+  },
+  {
+    name: 'AWS CloudFormation Hooks',
+    text: 'AWS CloudFormation Hooks allows you to invoke custom logic to automate actions or inspect resource configurations prior to a create, update or delete CloudFormation stack operation. You can now publish your policy and controls to the CloudFormation Registry and enforce them against all stack and resource operations in your AWS accounts',
+    urls: [
+      {
+        text: 'Announcement Post',
+        link: 'https://aws.amazon.com/blogs/mt/proactively-keep-resources-secure-and-compliant-with-aws-cloudformation-hooks/',
+      },
+      {
+        text: 'User Guide',
+        link: 'https://docs.aws.amazon.com/cloudformation-cli/latest/userguide/hooks.html',
+      },
+      {
+        text: 'Demo Video',
+        link: 'https://www.youtube.com/watch?v=BvJWhzMuNlg',
+        type: 'video',
+      },
+      {
+        text: 'Sample hooks repo',
+        link: 'https://github.com/aws-cloudformation/aws-cloudformation-samples/tree/main/hooks',
+        type: 'code',
+      },
+      {
+        text: 'Workshop',
+        link: 'https://catalog.us-east-1.prod.workshops.aws/workshops/f09fd78b-ef8a-4a9d-9d2b-f31a3e6ca956/en-US/introduction',
+      },
+    ],
+    tags: ['IaC', 'CloudFormation', 'DevOps', 'New in 2022'],
   },
 ];
 export default awsData;
