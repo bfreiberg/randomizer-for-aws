@@ -1,4 +1,6 @@
-# Feature Randomizer for AWS ⚡️ [![GitHub](https://img.shields.io/github/license/bfreiberg/randomizer-for-aws?color=blue)](https://github.com/bfreiberg/randomizer-for-aws/blob/main/LICENSE.md)
+# ⛔️ Deprecated: Feature Randomizer for AWS ⚡️ [![GitHub](https://img.shields.io/github/license/bfreiberg/randomizer-for-aws?color=blue)](https://github.com/bfreiberg/randomizer-for-aws/blob/main/LICENSE.md)
+
+***This project is no longer maintained***
 
 Can't decide which AWS Service or feature to try next? Got some AWS credits to burn or you just want to browse features by tags? [Try the Feature Randomizer for AWS!](https://freiberg.dev/randomizer)
 
